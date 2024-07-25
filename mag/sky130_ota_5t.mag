@@ -1,7 +1,25 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1721931174
+timestamp 1721933697
+<< error_s >>
+rect -466 -460 -432 -454
+rect 292 -460 346 -454
+rect 350 -460 418 -454
+rect 1142 -460 1196 -454
+rect 1200 -460 1268 -454
+rect 1992 -460 2014 -454
+rect -466 -494 -432 -488
+rect 292 -494 312 -488
+rect 384 -494 418 -488
+rect 1142 -494 1162 -488
+rect 1234 -494 1268 -488
+rect 1992 -494 2012 -488
+<< locali >>
+rect -466 -460 2014 -370
+rect -432 -488 292 -460
+rect 418 -488 1142 -460
+rect 1268 -488 1992 -460
 use sky130_fd_pr__pfet_01v8_3HZ9VM  XM1
 timestamp 1721930791
 transform 1 0 -77 0 1 -771
