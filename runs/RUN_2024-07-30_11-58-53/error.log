@@ -1,0 +1,6 @@
+Error: No netlist or layout for project sky130_ota_5t. 
+(layout master file gds/sky130_ota_5t.gds not found.)
+
+No netlist or layout for project sky130_ota_5t. 
+(layout master file gds/sky130_ota_5t.gds not found.)
+Failed to regenerate project netlist, aborting.

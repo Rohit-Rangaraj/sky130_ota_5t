@@ -1,0 +1,22 @@
+Loading datasheet from 'cace/sky130_ota_5t.yaml'
+Working directory set to 'cace/..' ('/foss/designs/sky130_ota_5t')
+Generating simulation netlist from schematic…
+Error: No netlist or layout for project sky130_ota_5t. 
+(layout master file gds/sky130_ota_5t.gds not found.)
+
+No netlist or layout for project sky130_ota_5t. 
+(layout master file gds/sky130_ota_5t.gds not found.)
+Failed to regenerate project netlist, aborting.
+Parameter A0: Canceled
+Parameter A0: Started
+Parameter UGF: Canceled
+Parameter UGF: Started
+Parameter PM: Canceled
+Parameter PM: Started
+Parameter area: Canceled
+Parameter area: Started
+Parameter LVS_errors: Canceled
+Parameter LVS_errors: Started
+Parameter DRC_errors: Canceled
+Parameter DRC_errors: Started
+Done with CACE simulations and evaluations in 0:00:00.
