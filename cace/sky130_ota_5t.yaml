@@ -2,7 +2,7 @@
 # CACE circuit characterization file
 #--------------------------------------------------------------
 
-name:           ota-5t
+name:           sky130_ota_5t
 description:    A simple 5-transistor OTA
 commit:         n/a
 PDK:            sky130A
@@ -10,9 +10,9 @@ PDK:            sky130A
 cace_format:    5.0
 
 authorship:
-  designer:         Leo Moser
-  company:          Efabless
-  creation_date:    May 27, 2024
+  designer:         Rohit Rangaraj
+  company:          Virginia Tech
+  creation_date:    July 30, 2024
   license:          Apache 2.0
 
 paths:
@@ -96,7 +96,7 @@ electrical_parameters:
         value: any
     simulate:
       ngspice:
-        template: ota-5t_tb.spice
+        template: sky130_ota_5t_tb.spice
         format: ascii
         suffix: .data
         variables: [result, 'null', 'null']
@@ -126,7 +126,7 @@ electrical_parameters:
         value: any
     simulate:
       ngspice:
-        template: ota-5t_tb.spice
+        template: sky130_ota_5t_tb.spice
         format: ascii
         suffix: .data
         variables: ['null', result, 'null']
@@ -156,7 +156,7 @@ electrical_parameters:
         value: any
     simulate:
       ngspice:
-        template: ota-5t_tb.spice
+        template: sky130_ota_5t_tb.spice
         format: ascii
         suffix: .data
         variables: ['null', 'null', result]
